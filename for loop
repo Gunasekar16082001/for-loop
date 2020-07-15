@@ -1,0 +1,17 @@
+ java.util.Scanner;
+
+
+publicimport class loops {
+	
+
+    public static void main(String[] args) {
+        System.out.println("Enter the number:");
+        int N;
+        int tables;
+        Scanner input = new Scanner(System.in);
+        tables = input.nextInt();
+        for (N = 0; N <=9; N++) {
+            System.out.println(tables+  "x"+ (N+1)+"="+(tables*(N+1))) ;
+        }
+    }
+}
